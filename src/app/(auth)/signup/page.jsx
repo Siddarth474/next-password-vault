@@ -79,7 +79,7 @@ export default function SignupPage() {
                         onChange={handleChange}
                         className="w-full p-2 outline rounded text-black
                         focus:outline-none focus:ring-2 focus:ring-orange-500 "
-                        placeholder="you@example.com"
+                        placeholder="Enter your email"
                         disabled={loading}
                     />
                     </div>

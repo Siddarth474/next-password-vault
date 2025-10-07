@@ -45,6 +45,7 @@ export default function VaultPage() {
         vault.map(item => decryptData(item, password))
       );
       setDecryptedVault(decrypted);
+      handleSuccess('Vault unlocked!');
     } catch (e) {
       handleError('Wrong password or corrupted data');
       setDecryptedVault([]);
